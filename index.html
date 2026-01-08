@@ -8,13 +8,25 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
+    <link
+  href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+  rel="stylesheet"
+/>
+
     <link rel="stylesheet" href="assets/style.css" />
   </head>
   <body>
     <section class="min-h-screen flex items-center justify-center px-6">
       <div class="flex flex-col md:flex-row items-center max-w-6xl gap-10">
-        <div class="max-w-md md:w-1/2 text-center md:text-left">
-          <h2 class="text-6xl font-bold leading-normal mb-4">
+        <div class="order-1 md:order-2 md:w-1/2 flex justify-center">
+          <img
+            src="assets/images/home.png"
+            alt="Hero Image"
+            class="w-80 md:w-full"
+          />
+        </div>
+        <div class="order-2 md:order-1 max-w-md md:w-1/2 text-left">
+          <h2 class="text-5xl md:text-6xl font-bold leading-normal mb-4">
             Send A Gift For Christmas
           </h2>
           <p class="text-gray-500 mb-6 text-lg font-light">
@@ -27,25 +39,19 @@
             Get Started
           </button>
         </div>
-        <div class="w-full md:w-1/2 flex justify-center">
-          <img
-            src="assets/images/home.png"
-            alt="Sample Image"
-            class="w-80 md:w-full"
-          />
-        </div>
       </div>
     </section>
+
     <section class="min-h-screen flex items-center justify-center px-6">
       <div class="flex flex-col md:flex-row items-center max-w-6xl gap-10">
-        <div class="w-full md:w-1/2 flex justify-center">
+        <div class="order-2 md:order-1 md:w-1/2 flex justify-center">
           <img
             src="assets/images/shared.png"
             alt="Sample Image"
             class="w-80 md:w-full"
           />
         </div>
-        <div class="max-w-md md:w-1/2 text-center md:text-left">
+        <div class="order-1 md:order-2 md:w-1/2 text-center md:text-left">
           <h2 class="text-4xl font-bold leading-normal mb-4">
             Sharing Is The Best Gift You Can Give
           </h2>
@@ -64,7 +70,7 @@
     </section>
     <section class="menu bg-white pb-30">
       <div class="p-lg-20 p-5">
-        <div class="max-w-lg mx-auto text-center mt-10">
+        <div class="max-w-lg mx-auto text-center mt-10 p-9 md:p-5">
           <h2 class="font-semibold text-4xl mb-15 leading-normal">
             Give Christmas Decorations For Your Home
           </h2>
@@ -77,14 +83,12 @@
             <div
               class="rounded-xl shadow-xl bg-white p-6 flex flex-col items-center text-center"
             >
-              <!-- Image -->
               <img
                 src="assets/images/decoration1.png"
                 alt="Christmas Bells"
                 class="w-full max-w-[250px] object-contain"
               />
 
-              <!-- Content -->
               <h2 class="text-2xl font-semibold mb-2">Christmas Bells</h2>
 
               <p class="text-red-600 font-light">Go Shopping</p>
@@ -93,14 +97,12 @@
             <div
               class="rounded-xl shadow-xl bg-white p-6 flex flex-col items-center text-center"
             >
-              <!-- Image -->
               <img
                 src="assets/images/decoration2.png"
                 alt="Christmas Bells"
                 class="w-full max-w-[250px] object-contain"
               />
 
-              <!-- Content -->
               <h2 class="text-2xl font-semibold mb-2">Christmas Bells</h2>
 
               <p class="text-red-600 font-light">Go Shopping</p>
@@ -109,14 +111,11 @@
             <div
               class="rounded-xl shadow-xl bg-white p-6 flex flex-col items-center text-center"
             >
-              <!-- Image -->
               <img
                 src="assets/images/decoration3.png"
                 alt="Christmas Bells"
                 class="w-full max-w-[250px] object-contain"
               />
-
-              <!-- Content -->
               <h2 class="text-2xl font-semibold mb-2">Christmas Bells</h2>
 
               <p class="text-red-600 font-light">Go Shopping</p>
@@ -129,8 +128,7 @@
       <div class="p-lg-20 p-5">
         <div class="max-w-sm mx-auto text-center mt-40">
           <h2 class="font-semibold text-4xl mb-15 leading-normal">
-           New Christmas
-Accessories
+            New Christmas Accessories
           </h2>
         </div>
 
@@ -138,38 +136,31 @@ Accessories
           <div
             class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 text-center"
           >
-           <div class="rounded-xl shadow-xl bg-white p-6 flex flex-col">
-  
-  <!-- Image center -->
-  <div class="flex justify-center">
-    <img
-      src="assets/images/accessory1.png"
-      alt="Snow Globe"
-      class="w-full max-w-[150px] object-contain"
-    />
-  </div>
+            <div class="rounded-xl shadow-xl bg-white p-6 flex flex-col">
+              <div class="flex justify-center">
+                <img
+                  src="assets/images/accessory1.png"
+                  alt="Snow Globe"
+                  class="w-full max-w-[150px] object-contain"
+                />
+              </div>
 
-  <!-- Content left -->
-  <div class="text-left">
-    <h2 class="text-xl font-semibold mb-2">Snow Globe</h2>
-    <p class="text-gray-500 text-lg font-light mb-2">Accessory</p>
-    <p class="font-semibold">₹1,999.00</p>
-  </div>
-
-</div>
-
+              <div class="text-left">
+                <h2 class="text-xl font-semibold mb-2">Snow Globe</h2>
+                <p class="text-gray-500 text-lg font-light mb-2">Accessory</p>
+                <p class="font-semibold">₹1,999.00</p>
+              </div>
+            </div>
 
             <div
               class="rounded-xl shadow-xl bg-white p-6 flex flex-col items-center text-center"
             >
-              <!-- Image -->
               <img
                 src="assets/images/accessory2.png"
                 alt="Christmas Bells"
                 class="w-full max-w-[250px] object-contain"
               />
 
-              <!-- Content -->
               <h2 class="text-2xl font-semibold mb-2">Christmas Bells</h2>
 
               <p class="text-red-600 font-light">Go Shopping</p>
@@ -178,45 +169,38 @@ Accessories
             <div
               class="rounded-xl shadow-xl bg-white p-6 flex flex-col items-center text-center"
             >
-              <!-- Image -->
               <img
                 src="assets/images/accessory3.png"
                 alt="Christmas Bells"
                 class="w-full max-w-[250px] object-contain"
               />
 
-              <!-- Content -->
               <h2 class="text-2xl font-semibold mb-2">Christmas Bells</h2>
 
               <p class="text-red-600 font-light">Go Shopping</p>
             </div>
 
-             <div
+            <div
               class="rounded-xl shadow-xl bg-white p-6 flex flex-col items-center text-center"
             >
-              <!-- Image -->
               <img
                 src="assets/images/accessory4.png"
                 alt="Christmas Bells"
                 class="w-full max-w-[250px] object-contain"
               />
 
-              <!-- Content -->
               <h2 class="text-2xl font-semibold mb-2">Christmas Bells</h2>
 
               <p class="text-red-600 font-light">Go Shopping</p>
             </div>
-             <div
+            <div
               class="rounded-xl shadow-xl bg-white p-6 flex flex-col items-center text-center"
             >
-              <!-- Image -->
               <img
                 src="assets/images/accessory5.png"
                 alt="Christmas Bells"
                 class="w-full max-w-[250px] object-contain"
               />
-
-              <!-- Content -->
               <h2 class="text-2xl font-semibold mb-2">Christmas Bells</h2>
 
               <p class="text-red-600 font-light">Go Shopping</p>
@@ -225,6 +209,96 @@ Accessories
         </div>
       </div>
     </section>
+
+    <section class="px-5 md:px-10 mt-20">
+  <div
+    class="max-w-6xl mx-auto bg-red-500 rounded-3xl p-8 md:p-14 flex flex-col md:flex-row items-center gap-10"
+  >
+    <!-- TEXT -->
+    <div class="flex-1 text-center md:text-left text-white">
+      <h2 class="text-2xl md:text-3xl font-semibold mb-4">
+        Send Gift Now
+      </h2>
+      <p class="text-sm md:text-base mb-6 opacity-90">
+        Start giving away before the holidays are over. Write the home
+        address of the person who will send the gift.
+      </p>
+
+     <div class="relative w-full max-w-sm mx-auto md:mx-0">
+  <input
+    type="text"
+    placeholder="House address"
+    class="w-full pl-4 pr-24 py-4 rounded-xl text-black outline-none"
+  />
+
+  <button
+    class="absolute right-2 top-1/2 -translate-y-1/2
+           bg-red-600 text-white px-5 py-2 rounded-lg font-semibold"
+  >
+    Send
+  </button>
+</div>
+
+    </div>
+
+    <!-- IMAGE -->
+    <div class="flex-1 flex justify-center">
+      <img
+        src="assets/images/send.png"
+        alt="Send Gift"
+        class="w-60 md:w-80"
+      />
+    </div>
+  </div>
+</section>
+<footer class="mt-20 px-5 md:px-10">
+  <div
+    class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 md:text-left"
+  >
+    <!-- Column 1 -->
+    <div>
+      <h3 class="font-semibold text-lg mb-3">Christmas Gift</h3>
+      <p class="text-gray-500 text-sm">
+        I sent a gift and it gives happiness...
+      </p>
+    </div>
+
+    <!-- Column 2 -->
+    <div>
+      <h3 class="font-semibold text-lg mb-3">Our Services</h3>
+      <ul class="space-y-2 text-gray-500 text-sm">
+        <li>Pricing</li>
+        <li>Discounts</li>
+        <li>Shipping mode</li>
+      </ul>
+    </div>
+
+    <!-- Column 3 -->
+    <div>
+      <h3 class="font-semibold text-lg mb-3">Our Company</h3>
+      <ul class="space-y-2 text-gray-500 text-sm">
+        <li>Blog</li>
+        <li>About us</li>
+        <li>Our mission</li>
+      </ul>
+    </div>
+    <div class="mt-10">
+    <h4 class="font-semibold mb-3">Social</h4>
+    <div class="flex gap-6">
+      <i class="ri-github-fill text-xl"></i>
+      <i class="ri-instagram-line text-xl"></i>
+    </div>
+  </div>
+  </div>
+
+  <!-- Social -->
+  
+
+  <p class="text-center text-sm text-gray-400 mt-10">
+    © Designed By: OnlyRohanJaiswal
+  </p>
+</footer>
+
 
     <script src="https://cdn.tailwindcss.com"></script>
   </body>
